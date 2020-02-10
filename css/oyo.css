@@ -1,0 +1,169 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+ body {
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ #sectionHeader {
+     padding: 7px 0;
+     box-shadow: 1px 4px 4px 1px #eee;
+ }
+
+ .navbar-brand svg {
+     fill: #ee2e24;
+     width: 80px;
+     height: 28px;
+ }
+
+ .container {
+     max-width: 1250px;
+ }
+
+ .navbar-nav .nav-link {
+     color: #000 !important;
+     padding: 10px 13px;
+     font-weight: bold;
+     letter-spacing: 1.1px;
+     font-size: 14px;
+     text-transform: capitalize;
+     position: relative;
+ }
+
+ .navbar-nav .nav-link:nth-child(1) {
+     border-left: 1px solid #eee;
+     border-right: 1px solid #eee;
+     padding: 0 20px;
+ }
+
+ .nav-link i {
+     font-size: 23px;
+     position: absolute;
+     top: -1px;
+     left: -7px;
+
+ }
+
+
+ #cityMenu {
+     background: #f3f5f7;
+ }
+
+ #cityMenu ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+
+ }
+
+ #citymenu ul li {
+     padding: 10px;
+ }
+
+ #cityMenu ul li a {
+     display: inline-block;
+     padding: 14px 25px;
+     color: #999;
+ }
+
+ .jumbotron {
+     background: none;
+     border-radius: 0;
+ }
+
+ #showcaseHero {
+     background: linear-gradient(135.46deg, #d11450, #df293a);
+     width: 100%;
+     padding: 10px 0 32px;
+     margin-bottom: 18px;
+
+ }
+
+ .jumbotron {
+     padding: 0;
+ }
+
+ .jumbotron h1 {
+     color: #fff;
+     text-transform: capitalize;
+     font-weight: bold;
+     font-size: 30px;
+     text-align: center;
+     letter-spacing: 1.3px;
+     margin: 27px 0px;
+ }
+
+ .jumbotron .form-control {
+     border-radius: 0;
+     border: none;
+     box-sizing: border-box;
+     padding: 28px;
+ }
+
+ .jumbotron .row {
+     display: flex;
+     justify-content: center;
+ }
+
+ .jumbotron button {
+     padding: 13px 50px;
+     border-radius: 0;
+     font-size: 18px;
+ }
+
+ .jumbotron input.form-control:nth-child(1) {
+     border-right: 1px solid #555;
+     border-radius: 3px 0px 0px 3px;
+ }
+
+ .jumbotron input.middleinput {
+     border-right: 1px solid #555;
+     text-indent: -9999px;
+ }
+
+ .nearme svg {
+     height: 15px;
+     width: 15px;
+     fill: #222;
+ }
+
+ #nearmeWrapper {
+     position: relative;
+ }
+
+ .nearme {
+     position: absolute;
+     z-index: 1;
+     right: 8px;
+     width: 97px;
+     top: 12px;
+     background: #eee;
+     padding: 4px 9px;
+     border-radius: 15px;
+     font-size: 13px;
+ }
+
+ #middleSpanWrapper {
+     position: relative;
+ }
+
+ span.middleSpan {
+     position: absolute;
+     right: -14px;
+     top: 16px;
+     z-index: 1;
+     width: 200px;
+     color: #000;
+     font-weight: 600;
+ }
+
+ span.middleSpan span {
+     margin: 0px 5px;
+     display: inline-block;
+
+ }
+
+ ::placeholder {
+     color: #000 !important;
+     font-weight: 600 !important;
+ }

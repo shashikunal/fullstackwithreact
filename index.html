@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OyoRooms</title>
+    <link
+      rel="shortcut icon"
+      href="./images/oyo-logo-120x120.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/oyo.css" />
+  </head>
+  <body>
+      <section id="sectionHeader">
+       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-default">
+            <a class="navbar-brand" href="#">
+            <svg class="headerSticky__logo">
+                <use xlink:href="#logo">
+                    <svg id="logo" viewBox="0 0 53 20">
+                        <path
+                            d="M44.584 19.15c5.034 0 9.13-4.123 9.13-9.19 0-5.07-4.096-9.19-9.13-9.19-5.035 0-9.13 4.12-9.13 9.19 0 5.067 4.095 9.19 9.13 9.19zm0-12.467c1.794 0 3.255 1.47 3.255 3.276 0 1.806-1.462 3.274-3.256 3.274-1.795 0-3.254-1.468-3.254-3.275 0-1.808 1.46-3.277 3.254-3.277zM10.138 19.15c5.034 0 9.13-4.123 9.13-9.19 0-5.07-4.096-9.19-9.13-9.19-5.033 0-9.13 4.12-9.13 9.19 0 5.067 4.097 9.19 9.13 9.19zm0-12.467c1.795 0 3.255 1.47 3.255 3.276 0 1.806-1.46 3.274-3.255 3.274-1.794 0-3.253-1.468-3.253-3.275 0-1.808 1.46-3.277 3.253-3.277zm17.218-.207L24.553.89H17.99l6.13 12.22v5.753h6.473V13.11L36.723.89h-6.566l-2.8 5.586z">
+                        </path>
+                    </svg>
+                </use>
+            </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-globe"></i> English
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fas fa-user"></i>login/signup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+      </section> <!----Block Header part-->
+
+      <section id="cityMenu">
+          <div class="container">
+        <ul>
+            <li><a href="">Delhi</a></li>
+            <li><a href="">Gurgaon</a></li>
+            <li><a href="">Noida</a></li>
+            <li><a href="">banglore</a></li>
+            <li><a href="">banglore</a></li>
+            <li><a href="">banglore</a></li>
+            <li><a href="">banglore</a></li>
+            <li><a href="">banglore</a></li>
+            <li><a href="">banglore</a></li>
+            <li><a href="">banglore</a></li>
+        </ul>
+    </div>
+      </section> <!----city menu-->
+
+      <section id="showcaseHero">
+        <div class="container">
+            <div class="jumbotron">
+                <h1>World's fastest growing hotel chain</h1>
+                <form>
+                    <div class="row">
+                        <input type="text" class="form-control col-md-4"
+                         placeholder="Around me">
+                         <span id="nearmeWrapper">
+                            <span class="nearme">
+                                <svg class="nearbyComponent__icon">
+                                    <use xlink:href="#crosshair-icon">
+                                        <svg id="crosshair-icon" viewBox="0 0 18 18">
+                                            <path
+                                                d="M15.617 8.26A6.657 6.657 0 0 0 9.74 2.383V.74a.74.74 0 0 0-1.48 0v1.643A6.657 6.657 0 0 0 2.383 8.26H.74a.74.74 0 0 0 0 1.48h1.643a6.657 6.657 0 0 0 5.877 5.877v1.643a.74.74 0 0 0 1.48 0v-1.643a6.657 6.657 0 0 0 5.877-5.877h1.643a.74.74 0 0 0 0-1.48h-1.643zM3.82 9A5.177 5.177 0 0 1 9 3.82 5.177 5.177 0 0 1 14.18 9 5.177 5.177 0 0 1 9 14.18 5.177 5.177 0 0 1 3.82 9z">
+                                            </path>
+                                        </svg>
+                                    </use>
+                                </svg>
+                                Nearme
+                            </span>
+                         </span>
+                        
+                        <input type="date" class="form-control col-md-2 middleinput">
+                        <span id="middleSpanWrapper"><span class="middleSpan">
+                            <span>Sat,
+                                8 Feb -</span><span>Sun,
+                                9 Feb</span></span></span>
+                         <input type="text" class="form-control col-md-2" 
+                         placeholder="1Room 1 Guest">
+                       <button class="btn btn-success">Search</button>
+                    </div>
+                   
+                  
+                  
+                   
+                </form>
+            </div>
+        </div>
+      </section> <!---end of showcasehero-->
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+  </body>
+</html>
